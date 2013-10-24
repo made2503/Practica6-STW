@@ -1,4 +1,4 @@
 require './lib/RockPaperScissors'
 
-run RockPaperScissors::RPS
+run RockPaperScissors::RPS.new
 
