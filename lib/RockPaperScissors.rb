@@ -3,7 +3,7 @@ require 'rack/response'
 require 'haml'
 require 'thin'
 require 'rack'
-p "Vaya a la página http://www.rps.com:8080"
+
 
 module RockPaperScissors
 	class RPS

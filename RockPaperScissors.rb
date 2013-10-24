@@ -13,10 +13,4 @@ builder = Rack:: Builder.new do
 	run RockPaperScissors::RPS.new
 end
 
-use Rack::Server.start(
-	:app => builder,
-	:Port => 8080,
-	:server => 'thin',
-	:host => 'www.rps.com'
-	)
 
