@@ -8,8 +8,6 @@ require 'pp'
 module RockPaperScissors
 	class RPS
 
-		pp hola
-		
 		def initialize(app = nil)
 			@app = app
 			@content_type = :html
