@@ -15,6 +15,10 @@ Rock, Paper and Scissors
 
 **Paso 6.** `bundle install` para evitar fallos.
 
+**Paso 7.** Agregamos a github y luego hacemos un push `git push heroku master`
+
+**Paso 8.** Abriremos nuestra aplicación con `heroku open`
+
 ##IMPORTANTE##
 
 1. Tener creado un Gemfile y a su vez un Gemfile.lock porque es de donde realmente heroku cogerá las gemas y sus versiones
