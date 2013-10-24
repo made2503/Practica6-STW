@@ -1,3 +1,3 @@
-require './lib/RockPaperScissors'
+require './RockPaperScissors'
 
-run RockPaperScissors::RPS
+ruby RockPaperScissors.rb
