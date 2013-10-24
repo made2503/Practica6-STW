@@ -16,7 +16,6 @@ end
 use Rack::Server.start(
 	:app => builder,
 	:Port => 8080,
-	:server => 'thin',
-	:host => 'www.rps.com'
+	:server => 'thin'
 	)
 
