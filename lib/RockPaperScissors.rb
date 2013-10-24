@@ -3,11 +3,13 @@ require 'rack/response'
 require 'haml'
 require 'thin'
 require 'rack'
-
+require 'pp'
 
 module RockPaperScissors
 	class RPS
 
+		pp hola
+		
 		def initialize(app = nil)
 			@app = app
 			@content_type = :html
