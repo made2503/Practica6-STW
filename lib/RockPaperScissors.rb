@@ -3,7 +3,6 @@ require 'rack/response'
 require 'haml'
 require 'thin'
 require 'rack'
-require 'pp'
 
 module RockPaperScissors
 	class RPS
