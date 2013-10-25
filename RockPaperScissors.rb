@@ -7,7 +7,6 @@ builder = Rack:: Builder.new do
 	use Rack::Lint
 	use Rack::Session::Cookie,
 		{:key => 'rack.session',
-		:domain => 'rps.com',
 		:secret => 'cookie'}
 
 	run RockPaperScissors::RPS.new
