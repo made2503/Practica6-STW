@@ -13,5 +13,10 @@ end
 
 desc "Ejecutar los Test Rspec"
 task :spec do 
-	sh "rspec spec/rsack/server_spec.rb"
+	sh "rspec --color --format documentation spec/rsack/server_spec.rb"
+end
+
+desc "Ejecutar los Test Rspec y salida en página HTML"
+task :spech do 
+	sh "rspec --format html spec/rsack/server_spec.rb"
 end
