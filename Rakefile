@@ -3,7 +3,7 @@ task :default => :server
 
 desc "Servidor"
 task :server do
-  sh "rackup"
+  sh "bundle exec rackup"
 end
 
 desc "Ejecutar todas las Pruebas Unitarias"
