@@ -3,6 +3,7 @@ require 'rack/response'
 require 'haml'
 require 'thin'
 require 'rack'
+require 'pp'
 
 module RockPaperScissors
 	class RPS
@@ -60,6 +61,7 @@ module RockPaperScissors
 		end
 
 		def call env
+			pp env
 			set_env(env)
 			req = Rack::Request.new(env)
 			player_throw = req.GET["choice"]
