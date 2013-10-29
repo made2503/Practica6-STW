@@ -1,4 +1,4 @@
-require './lib/RockPaperScissors'
+require './lib/RockPaperScissors/rps'
 
 
 	use Rack::Static, :urls => ['/public']
