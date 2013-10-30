@@ -36,6 +36,10 @@ RockPaperScissors.rb
 
 ## VISTA ##
 
+	localhost:9292
+
+	HEROKU
+	
 	http://agile-stream-9967.herokuapp.com/
 
 
