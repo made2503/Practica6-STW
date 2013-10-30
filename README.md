@@ -36,7 +36,7 @@ RockPaperScissors.rb
 
 ## VISTA ##
 
-	http://localhost:8080/
+	http://agile-stream-9967.herokuapp.com/
 
 
 ## DESARROLLADOR ##
